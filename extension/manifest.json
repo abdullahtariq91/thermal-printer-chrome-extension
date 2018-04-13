@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "HMIS Thermal Printer Extension",
+  "name": "Thermal Printer Extension",
   "description": "Thermal Printer Extension for ESC/POS Commands",
-  "version": "1.0",
+  "version": "1.1",
   "app": {
     "background": {
       "scripts": ["main.js"]
@@ -22,5 +22,5 @@
   "externally_connectable": {
     "matches": ["http://localhost:3000/*"]
   },
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4lqZ7BppK0zKOVxBQCY85Rc02/A2O8G1HPyIRcTGW6pUgQTQgv3PAut8GJRSWfGCc7demmtGafqKSLMCora5m/a52+NzgYm29oPx+hb2RN71KxFmY07yq8GtO9BFcrtvZM+CF51jiwYA9Qa2qHkPdNs6RjRc/Z1BwTroU0mXU4IRyF01mhpbk7HnzWORzvv/7pLQZnvz8Wk1YG0eSukclfHW3MCb6YUI44qLYr5Zb5UCf+QxINy7AM0aY65irnGCMNPDy7bHIoHSCLOUhM3wnlhEy+ZlCG0mEnRkGn5wHOX2l2sHnrsIG8EHZ0BFitOb7YvP/4vW7SdPbH1BB+hesQIDAQAB"
+  "key": <add public key here>
 }
