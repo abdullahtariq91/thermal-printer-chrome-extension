@@ -13,12 +13,12 @@
 Create a simple AngularJS app:
 ```
 angular.module('thermalPrintApp', []).controller('thermalPrintController', function ($scope) {
-  var stuff = {
-    stuffToPrint: "Printing this!"
-  };
+	var stuff = {
+		stuffToPrint: "Printing this!"
+	};
 	$scope.printStuff = function () {
-    // add chrome extension id here
-    chrome.runtime.sendMessage(<chrome extension id>, stuff);
+		// add chrome extension id here
+		chrome.runtime.sendMessage(<chrome extension id>, stuff);
 	};
 });
 ```
