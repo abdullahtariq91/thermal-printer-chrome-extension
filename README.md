@@ -17,7 +17,8 @@ angular.module('thermalPrintApp', []).controller('thermalPrintController', funct
     stuffToPrint: "Printing this!"
   };
 	$scope.printStuff = function () {
-      chrome.runtime.sendMessage(<chrome extension id>, stuff); // add chrome extension id here
+    // add chrome extension id here
+    chrome.runtime.sendMessage(<chrome extension id>, stuff);
 	};
 });
 ```
@@ -48,7 +49,7 @@ Starting up http-server, serving ./
 Available on:
   http://127.0.0.1:8080
   http://192.168.1.7:8080
-Hit CTRL-C to stop the server
+Hit CTRL-c to stop the server
 ```
 
 Add both links to `externally_connectable` in manifest.json (and reload).
